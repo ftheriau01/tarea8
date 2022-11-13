@@ -15,7 +15,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 .fide_nav{
-    background-color: var(--secundary);
+    background-color: var(--secundary) !important;
     color: var(--primary) !important; 
 }
 .fide{
@@ -38,4 +38,15 @@ body{
 }
 .fide_link:hover{
     background-color: var(--hoover);
+}
+.dropdown-menu{
+    background-color:var(--primary);
+}
+.dropdown-item{
+    color: var(--secundary);
+}
+.dropdown-item:hover{
+    background-color:var(--hoover);
+    color: var(--primary);
+    
 }
