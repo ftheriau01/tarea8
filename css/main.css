@@ -40,13 +40,14 @@ body{
     background-color: var(--hoover);
 }
 .dropdown-menu{
-    background-color:var(--primary);
+    background-color:var(--secundary);
 }
 .dropdown-item{
-    color: var(--secundary);
+    color: var(--primary);
 }
 .dropdown-item:hover{
-    background-color:var(--hoover);
+    background-color: transparent;
+    text-shadow: 2px 2px 5px #fff;
     color: var(--primary);
-    
+    font-weight: bolder;
 }
